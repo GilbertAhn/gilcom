@@ -18,7 +18,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    
+
+/* Setup type of application */
 #ifdef LITE_VERSION
     _labelAppName.text = @"Sample App Lite";
 #else
