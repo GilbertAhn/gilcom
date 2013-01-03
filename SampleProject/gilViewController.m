@@ -18,6 +18,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+#ifdef LITE_VERSION
+    _labelAppName.text = @"Sample App Lite";
+#else
+    _labelAppName.text = @"Sample App Full";
+#endif
 }
 
 - (void)didReceiveMemoryWarning

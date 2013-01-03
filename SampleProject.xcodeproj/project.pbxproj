@@ -24,6 +24,18 @@
 		AB8685B61695AA3F0097AA2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB86858E1695AA3F0097AA2D /* Foundation.framework */; };
 		AB8685BE1695AA3F0097AA2D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB8685BC1695AA3F0097AA2D /* InfoPlist.strings */; };
 		AB8685C11695AA3F0097AA2D /* SampleProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8685C01695AA3F0097AA2D /* SampleProjectTests.m */; };
+		AB8685E21695AABD0097AA2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8685981695AA3F0097AA2D /* main.m */; };
+		AB8685E31695AABD0097AA2D /* gilAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB86859C1695AA3F0097AA2D /* gilAppDelegate.m */; };
+		AB8685E41695AABD0097AA2D /* gilViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8685AB1695AA3F0097AA2D /* gilViewController.m */; };
+		AB8685E61695AABD0097AA2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB86858C1695AA3F0097AA2D /* UIKit.framework */; };
+		AB8685E71695AABD0097AA2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB86858E1695AA3F0097AA2D /* Foundation.framework */; };
+		AB8685E81695AABD0097AA2D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8685901695AA3F0097AA2D /* CoreGraphics.framework */; };
+		AB8685EA1695AABD0097AA2D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB8685951695AA3F0097AA2D /* InfoPlist.strings */; };
+		AB8685EB1695AABD0097AA2D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AB86859E1695AA3F0097AA2D /* Default.png */; };
+		AB8685EC1695AABD0097AA2D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8685A01695AA3F0097AA2D /* Default@2x.png */; };
+		AB8685ED1695AABD0097AA2D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8685A21695AA3F0097AA2D /* Default-568h@2x.png */; };
+		AB8685EE1695AABD0097AA2D /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB8685A41695AA3F0097AA2D /* MainStoryboard_iPhone.storyboard */; };
+		AB8685EF1695AABD0097AA2D /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB8685A71695AA3F0097AA2D /* MainStoryboard_iPad.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +72,9 @@
 		AB8685BD1695AA3F0097AA2D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AB8685BF1695AA3F0097AA2D /* SampleProjectTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleProjectTests.h; sourceTree = "<group>"; };
 		AB8685C01695AA3F0097AA2D /* SampleProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleProjectTests.m; sourceTree = "<group>"; };
+		AB8685DF1695AAA80097AA2D /* SampleProject copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SampleProject copy-Info.plist"; path = "/Users/gilbertahn/projects/SampleProject/SampleProject copy-Info.plist"; sourceTree = "<absolute>"; };
+		AB8685F31695AABD0097AA2D /* SampleProject Lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SampleProject Lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB8685F51695AABD0097AA2D /* SampleProject copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SampleProject copy2-Info.plist"; path = "/Users/gilbertahn/projects/SampleProject/SampleProject copy2-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +98,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AB8685E51695AABD0097AA2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8685E61695AABD0097AA2D /* UIKit.framework in Frameworks */,
+				AB8685E71695AABD0097AA2D /* Foundation.framework in Frameworks */,
+				AB8685E81695AABD0097AA2D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -93,6 +118,8 @@
 				AB8685B91695AA3F0097AA2D /* SampleProjectTests */,
 				AB86858B1695AA3F0097AA2D /* Frameworks */,
 				AB8685891695AA3F0097AA2D /* Products */,
+				AB8685DF1695AAA80097AA2D /* SampleProject copy-Info.plist */,
+				AB8685F51695AABD0097AA2D /* SampleProject copy2-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +128,7 @@
 			children = (
 				AB8685881695AA3F0097AA2D /* SampleProject.app */,
 				AB8685B21695AA3F0097AA2D /* SampleProjectTests.octest */,
+				AB8685F31695AABD0097AA2D /* SampleProject Lite.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -202,6 +230,23 @@
 			productReference = AB8685B21695AA3F0097AA2D /* SampleProjectTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
+		AB8685E01695AABD0097AA2D /* SampleProject Lite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB8685F01695AABD0097AA2D /* Build configuration list for PBXNativeTarget "SampleProject Lite" */;
+			buildPhases = (
+				AB8685E11695AABD0097AA2D /* Sources */,
+				AB8685E51695AABD0097AA2D /* Frameworks */,
+				AB8685E91695AABD0097AA2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SampleProject Lite";
+			productName = SampleProject;
+			productReference = AB8685F31695AABD0097AA2D /* SampleProject Lite.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -226,6 +271,7 @@
 			targets = (
 				AB8685871695AA3E0097AA2D /* SampleProject */,
 				AB8685B11695AA3F0097AA2D /* SampleProjectTests */,
+				AB8685E01695AABD0097AA2D /* SampleProject Lite */,
 			);
 		};
 /* End PBXProject section */
@@ -249,6 +295,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB8685BE1695AA3F0097AA2D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB8685E91695AABD0097AA2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8685EA1695AABD0097AA2D /* InfoPlist.strings in Resources */,
+				AB8685EB1695AABD0097AA2D /* Default.png in Resources */,
+				AB8685EC1695AABD0097AA2D /* Default@2x.png in Resources */,
+				AB8685ED1695AABD0097AA2D /* Default-568h@2x.png in Resources */,
+				AB8685EE1695AABD0097AA2D /* MainStoryboard_iPhone.storyboard in Resources */,
+				AB8685EF1695AABD0097AA2D /* MainStoryboard_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +345,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB8685C11695AA3F0097AA2D /* SampleProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB8685E11695AABD0097AA2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8685E21695AABD0097AA2D /* main.m in Sources */,
+				AB8685E31695AABD0097AA2D /* gilAppDelegate.m in Sources */,
+				AB8685E41695AABD0097AA2D /* gilViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +512,34 @@
 			};
 			name = Release;
 		};
+		AB8685F11695AABD0097AA2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleProject/SampleProject-Prefix.pch";
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = (
+					LITE_VERSION,
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SampleProject copy2-Info.plist";
+				PRODUCT_NAME = "SampleProject Lite";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AB8685F21695AABD0097AA2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleProject/SampleProject-Prefix.pch";
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = LITE_VERSION;
+				INFOPLIST_FILE = "SampleProject copy2-Info.plist";
+				PRODUCT_NAME = "SampleProject Lite";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -468,6 +565,14 @@
 			buildConfigurations = (
 				AB8685C81695AA3F0097AA2D /* Debug */,
 				AB8685C91695AA3F0097AA2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB8685F01695AABD0097AA2D /* Build configuration list for PBXNativeTarget "SampleProject Lite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB8685F11695AABD0097AA2D /* Debug */,
+				AB8685F21695AABD0097AA2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
