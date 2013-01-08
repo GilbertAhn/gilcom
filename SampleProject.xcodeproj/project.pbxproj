@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB2A4F53169C3D62004050EC /* gilViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2A4F52169C3D62004050EC /* gilViewController2.m */; };
+		AB2A4F54169C3D62004050EC /* gilViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2A4F52169C3D62004050EC /* gilViewController2.m */; };
+		AB2A4F58169C4C68004050EC /* gilUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2A4F57169C4C68004050EC /* gilUIView.m */; };
+		AB2A4F59169C4C68004050EC /* gilUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2A4F57169C4C68004050EC /* gilUIView.m */; };
 		AB86858D1695AA3F0097AA2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB86858C1695AA3F0097AA2D /* UIKit.framework */; };
 		AB86858F1695AA3F0097AA2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB86858E1695AA3F0097AA2D /* Foundation.framework */; };
 		AB8685911695AA3F0097AA2D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8685901695AA3F0097AA2D /* CoreGraphics.framework */; };
@@ -36,6 +40,10 @@
 		AB8685ED1695AABD0097AA2D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8685A21695AA3F0097AA2D /* Default-568h@2x.png */; };
 		AB8685EE1695AABD0097AA2D /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB8685A41695AA3F0097AA2D /* MainStoryboard_iPhone.storyboard */; };
 		AB8685EF1695AABD0097AA2D /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB8685A71695AA3F0097AA2D /* MainStoryboard_iPad.storyboard */; };
+		AB86860816996D170097AA2D /* Gil_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AB86860716996D170097AA2D /* Gil_Icon.png */; };
+		AB86860B16996D280097AA2D /* Gil_Icon_54x54.png in Resources */ = {isa = PBXBuildFile; fileRef = AB86860A16996D280097AA2D /* Gil_Icon_54x54.png */; };
+		AB86860C16996D350097AA2D /* Gil_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AB86860716996D170097AA2D /* Gil_Icon.png */; };
+		AB86860D16996D3D0097AA2D /* Gil_Icon_54x54.png in Resources */ = {isa = PBXBuildFile; fileRef = AB86860A16996D280097AA2D /* Gil_Icon_54x54.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB2A4F51169C3D62004050EC /* gilViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gilViewController2.h; sourceTree = "<group>"; };
+		AB2A4F52169C3D62004050EC /* gilViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gilViewController2.m; sourceTree = "<group>"; };
+		AB2A4F56169C4C68004050EC /* gilUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gilUIView.h; sourceTree = "<group>"; };
+		AB2A4F57169C4C68004050EC /* gilUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gilUIView.m; sourceTree = "<group>"; };
 		AB8685881695AA3F0097AA2D /* SampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB86858C1695AA3F0097AA2D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AB86858E1695AA3F0097AA2D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -75,6 +87,8 @@
 		AB8685DF1695AAA80097AA2D /* SampleProject copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SampleProject copy-Info.plist"; path = "/Users/gilbertahn/projects/SampleProject/SampleProject copy-Info.plist"; sourceTree = "<absolute>"; };
 		AB8685F31695AABD0097AA2D /* SampleProject Lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SampleProject Lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB8685F51695AABD0097AA2D /* SampleProject copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SampleProject copy2-Info.plist"; path = "/Users/gilbertahn/projects/SampleProject/SampleProject copy2-Info.plist"; sourceTree = "<absolute>"; };
+		AB86860716996D170097AA2D /* Gil_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gil_Icon.png; sourceTree = "<group>"; };
+		AB86860A16996D280097AA2D /* Gil_Icon_54x54.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gil_Icon_54x54.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +128,8 @@
 		AB86857D1695AA3E0097AA2D = {
 			isa = PBXGroup;
 			children = (
+				AB86860A16996D280097AA2D /* Gil_Icon_54x54.png */,
+				AB86860716996D170097AA2D /* Gil_Icon.png */,
 				AB8685921695AA3F0097AA2D /* SampleProject */,
 				AB8685B91695AA3F0097AA2D /* SampleProjectTests */,
 				AB86858B1695AA3F0097AA2D /* Frameworks */,
@@ -150,6 +166,10 @@
 				AB86859B1695AA3F0097AA2D /* gilAppDelegate.h */,
 				AB86859C1695AA3F0097AA2D /* gilAppDelegate.m */,
 				AB8685A41695AA3F0097AA2D /* MainStoryboard_iPhone.storyboard */,
+				AB2A4F56169C4C68004050EC /* gilUIView.h */,
+				AB2A4F57169C4C68004050EC /* gilUIView.m */,
+				AB2A4F51169C3D62004050EC /* gilViewController2.h */,
+				AB2A4F52169C3D62004050EC /* gilViewController2.m */,
 				AB8685A71695AA3F0097AA2D /* MainStoryboard_iPad.storyboard */,
 				AB8685AA1695AA3F0097AA2D /* gilViewController.h */,
 				AB8685AB1695AA3F0097AA2D /* gilViewController.m */,
@@ -287,6 +307,8 @@
 				AB8685A31695AA3F0097AA2D /* Default-568h@2x.png in Resources */,
 				AB8685A61695AA3F0097AA2D /* MainStoryboard_iPhone.storyboard in Resources */,
 				AB8685A91695AA3F0097AA2D /* MainStoryboard_iPad.storyboard in Resources */,
+				AB86860816996D170097AA2D /* Gil_Icon.png in Resources */,
+				AB86860B16996D280097AA2D /* Gil_Icon_54x54.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +330,8 @@
 				AB8685ED1695AABD0097AA2D /* Default-568h@2x.png in Resources */,
 				AB8685EE1695AABD0097AA2D /* MainStoryboard_iPhone.storyboard in Resources */,
 				AB8685EF1695AABD0097AA2D /* MainStoryboard_iPad.storyboard in Resources */,
+				AB86860C16996D350097AA2D /* Gil_Icon.png in Resources */,
+				AB86860D16996D3D0097AA2D /* Gil_Icon_54x54.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +361,8 @@
 				AB8685991695AA3F0097AA2D /* main.m in Sources */,
 				AB86859D1695AA3F0097AA2D /* gilAppDelegate.m in Sources */,
 				AB8685AC1695AA3F0097AA2D /* gilViewController.m in Sources */,
+				AB2A4F53169C3D62004050EC /* gilViewController2.m in Sources */,
+				AB2A4F58169C4C68004050EC /* gilUIView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +381,8 @@
 				AB8685E21695AABD0097AA2D /* main.m in Sources */,
 				AB8685E31695AABD0097AA2D /* gilAppDelegate.m in Sources */,
 				AB8685E41695AABD0097AA2D /* gilViewController.m in Sources */,
+				AB2A4F54169C3D62004050EC /* gilViewController2.m in Sources */,
+				AB2A4F59169C4C68004050EC /* gilUIView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,6 +587,7 @@
 				AB8685C61695AA3F0097AA2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB8685C71695AA3F0097AA2D /* Build configuration list for PBXNativeTarget "SampleProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -567,6 +596,7 @@
 				AB8685C91695AA3F0097AA2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB8685F01695AABD0097AA2D /* Build configuration list for PBXNativeTarget "SampleProject Lite" */ = {
 			isa = XCConfigurationList;
@@ -575,6 +605,7 @@
 				AB8685F21695AABD0097AA2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
