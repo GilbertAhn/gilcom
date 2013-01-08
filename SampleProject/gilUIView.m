@@ -51,6 +51,7 @@
 
 unsigned long count;
 CGPoint pt1, pt2, pt3;
+/* Change git config */
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
