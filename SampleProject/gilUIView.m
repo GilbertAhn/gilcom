@@ -9,6 +9,8 @@
 #import "gilUIView.h"
 
 @interface gilbUIView
+{
+}
 - (void)drawTouch:(CGPoint)pt;
 @end
 
@@ -47,21 +49,33 @@
     CGContextFillPath(ctx);
 }
 
+unsigned long count;
+CGPoint pt1, pt2, pt3;
+
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
     CGPoint pt = [[touches anyObject] locationInView:self];
     self.path = [UIBezierPath bezierPath];
     path.lineWidth = 4.0f;
-    
+    count = 0;
+
     [path moveToPoint:pt];
-    
+   
+    pt3 = pt2;
+    pt2 = pt1;
+    pt1 = pt;
     [self setNeedsDisplay];
 }
 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
 {
     CGPoint pt = [[touches anyObject] locationInView:self];
-    [path addLineToPoint:pt];
+
+    count++;
+    [path addQuadCurveToPoint:pt controlPoint:pt1];
+    pt3 = pt2;
+    pt2 = pt1;
+    pt1 = pt;
     
     [self setNeedsDisplay];
 }
@@ -69,7 +83,12 @@
 -(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
 {
     CGPoint pt = [[touches anyObject] locationInView:self];
+
+    count++;
     [path addLineToPoint:pt];
+    pt3 = pt2;
+    pt2 = pt1;
+    pt1 = pt;
     
     [self setNeedsDisplay];
 }
